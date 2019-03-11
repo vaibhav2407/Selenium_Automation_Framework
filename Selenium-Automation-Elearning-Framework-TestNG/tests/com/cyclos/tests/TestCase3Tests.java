@@ -41,7 +41,7 @@ public class TestCase3Tests {
 	
 	@BeforeMethod
 	public void setUp() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
+		driver = DriverFactory.getDriver(DriverNames.FIREFOX);
 		TC1 = new TestCase1PageObjects(driver); 
 		TC3 = new TestCase3PageObjects(driver); 
 		baseUrl = properties.getProperty("baseURL");
